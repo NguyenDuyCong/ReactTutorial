@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script type="text/babel" src="./script.js"></script>
+    <!-- <script type="text/babel">
+        // cach don gian nhat de tao mot component la viet mot function JavaScript
+
+        // 1.We call ReactDOM.render() with the <Welcome name="Cong Nguyen" /> element.
+        // 2.React calls the Welcome component with {name: 'Cong Nguyen'} as the props.
+        // 3.Our Welcome component returns a <h1>Hello, Cong Nguyen</h1> element as the result.
+        // 4.React DOM efficiently updates the DOM to match <h1>Hello, Cong Nguyen</h1>.
+        function Welcome(props){
+            return <h1>Hello, {props.name}!</h1>
+        }
+
+        function App(){
+            return (
+                <div>
+                    <Welcome name="A" />
+                    <Welcome name="B" />
+                    <Welcome name="C" />
+                </div>
+            )
+        }
+
+        // const element = <Welcome name="Cong Nguyen" />;
+
+        // ReactDOM.render(element, document.getElementById("root"));
+
+        ReactDOM.render(<App/>, document.getElementById('root'))
+    </script> -->
+</body>
+</html>
