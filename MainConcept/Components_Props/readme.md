@@ -1,6 +1,11 @@
 Components cho bạn chia UI thành các phần độc lập, có thể tái sử dụng và suy nghĩ về từng phần một cách độc lập.
 
 Về mặt khái niệm, Components tương tự JavaScript functions. Chúng nhận đầu vào tùy ý (được gọi là "props") và trả về React elements miêu tả cái gì nên xuất hiện trên màn hình.
+
+```js
+<Welcome name='tara' user = 'bestname' />
+```
+props gồm `name` va `user`.
 ****
 #### Function and Class Components
 Cách đơn giản nhất để định nghĩa một component là viết một JavaScript function.
